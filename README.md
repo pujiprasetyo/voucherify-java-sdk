@@ -810,6 +810,7 @@ voucherify.vouchers().async().create(createVoucher, new VoucherifyCallback<Vouch
 Bug reports and pull requests are welcome on GitHub at https://github.com/rspective/voucherify-java-sdk.
 
 ## Changelog
+* 2020-09-02 - 10.0.0 - Changed properties type from `Integer` to `Long` in some classes
 * 2020-07-22 - 9.1.1 - Fixed previous release version and improved publishing artifacts
 * 2020-07-14 - 9.1.0 - Added possibility to specify points as reward when redeeming loyalty card, fixed UpdateOrder status field
 * 2019-09-30 - 9.0.0 - Updated retrofit and rxjava to version >= 2.x. Dropped support for JDK 1.6 and 1.7
